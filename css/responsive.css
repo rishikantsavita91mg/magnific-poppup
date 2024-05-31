@@ -1,0 +1,13 @@
+@media screen and (max-width: 767px) {
+ .img-box {
+    width: calc(50% - 20px);
+    height: 320px;
+ }   
+}
+@media screen and (max-width: 575px) {
+ .img-box {
+    width: 80%;
+    margin: 0 auto;
+    height: 400px;
+ }   
+}

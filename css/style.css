@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+} 
+
+.magnificPopup-wrapper {
+    width: 100%;
+}
+
+.magnificPopup-heading {
+    text-align: center;
+    margin: 40px 0;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+.gallery-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.img-box {
+    width: calc(33.33% - 26.66px);
+    height: 250px;
+    border: 1px solid #ddd;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
